@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>웹툰</title>
+<style>
+/* 기본 스타일 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px 0; /* 위 아래 간격 추가 */
+  background-color: #F0F0F0; /* 수정된 부분: 백그라운드 색상 */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 40px); /* 위 아래 간격에 따라 조절 */
+  background-image: url('./웹페이지_배경_블러.png');
+}
+
+.webtoon img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="webtoon">
+    <img src="./episode1.png" alt="웹툰 이미지">
+  </div>
+</div>
+
+</body>
+</html>
