@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>도키도키! 솔로 라이프</title>
+<style>
+/* 기본 스타일 */
+@font-face {
+    font-family: 'Shilla_Gothic-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/Shilla_Gothic-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: 'Shilla_Gothic-Bold', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.header {
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.header img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.webtoon-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.webtoon-item {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.webtoon-item:hover {
+  background-color: #f0f0f0;
+}
+
+.webtoon-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.webtoon-item h2 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  text-align: center;
+  color: #333;
+}
+
+.webtoon-item p {
+  margin: 0;
+  text-align: center;
+  color: #777;
+}
+
+/* 화살표 아이콘 스타일 */
+#scrollToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  transform: rotate(270deg); /* 아이콘을 위로 바라보도록 회전 */
+}
+
+#scrollToTop:hover {
+  background-color: #ddd;
+}
+
+</style>
+</head>
+<body background="background.png">
+
+<div class="container">
+  <div class="header">
+    <img src="title_image.jpg" alt="도키도키! 솔로 라이프">
+  </div>
+  <ul class="webtoon-list">
+    <!-- 웹툰 아이템 -->
+    <li class="webtoon-item" onclick="window.location.href = 'episode1.html'">
+      <img src="image1.jpg" alt="웹툰 1">
+      <h2>웹툰 1</h2>
+      <p>웹툰 1 설명</p>
+    </li>
+    <!-- 추가된 웹툰 아이템 -->
+    <li class="webtoon-item" onclick="window.location.href = 'episode2.html'">
+      <img src="image2.jpg" alt="웹툰 2">
+      <h2>웹툰 2</h2>
+      <p>웹툰 2 설명</p>
+    </li>
+    <li class="webtoon-item" onclick="window.location.href = 'episode3.html'">
+      <img src="image3.jpg" alt="웹툰 3">
+      <h2>웹툰 3</h2>
+      <p>웹툰 3 설명</p>
+    </li>
+    <li class="webtoon-item" onclick="window.location.href = 'episode4.html'">
+      <img src="image4.jpg" alt="웹툰 4">
+      <h2>웹툰 4</h2>
+      <p>웹툰 4 설명</p>
+    </li>
+    <li class="webtoon-item" onclick="window.location.href = 'episode5.html'">
+      <img src="image5.jpg" alt="웹툰 5">
+      <h2>웹툰 5</h2>
+      <p>웹툰 5 설명</p>
+    </li>
+    <li class="webtoon-item" onclick="window.location.href = 'episode6.html'">
+      <img src="image6.jpg" alt="웹툰 6">
+      <h2>웹툰 6</h2>
+      <p>웹툰 6 설명</p>
+    </li>
+    <li class="webtoon-item" onclick="window.location.href = 'episode7.html'">
+      <img src="image7.jpg" alt="웹툰 7">
+      <h2>웹툰 7</h2>
+      <p>웹툰 7 설명</p>
+    </li>
+    <li class="webtoon-item" onclick="window.location.href = 'episode8.html'">
+      <img src="image8.jpg" alt="웹툰 8">
+      <h2>웹툰 8</h2>
+      <p>웹툰 8 설명</p>
+    </li>
+    <li class="webtoon-item" onclick="window.location.href = 'episode9.html'">
+      <img src="image9.jpg" alt="웹툰 9">
+      <h2>웹툰 9</h2>
+      <p>웹툰 9 설명</p>
+    </li>
+    <li class="webtoon-item" onclick="window.location.href = 'episode10.html'">
+      <img src="image10.jpg" alt="웹툰 10">
+      <h2>웹툰 10</h2>
+      <p>웹툰 10 설명</p>
+    </li>
+    <li class="webtoon-item" onclick="window.location.href = 'episode11.html'">
+      <img src="image11.jpg" alt="웹툰 11">
+      <h2>웹툰 11</h2>
+      <p>웹툰 11 설명</p>
+    </li>
+    <li class="webtoon-item" onclick="window.location.href = 'episode12.html'">
+      <img src="image12.jpg" alt="웹툰 12">
+      <h2>웹툰 12</h2>
+      <p>웹툰 12 설명</p>
+    </li>
+  </ul>
+  <!-- 여기서부터 추가된 화살표 버튼 -->
+  <div id="scrollToTop" onclick="scrollToTop()">➽</div>
+  <!-- 여기까지 추가된 화살표 버튼 -->
+</div>
+
+<script>
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}
+</script>
+
+</body>
+</html>
